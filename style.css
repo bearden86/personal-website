@@ -1,6 +1,38 @@
-h1 {
-    color:red;
+/* use "*" to apply styling to all elements */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
 }
+
+/* element selectors */
+h1 {
+    color: #FF0000; 
+}
+
 h2 {
-    color:red;
+    color:rgba(255, 255, 0, .5);
+}
+
+p {
+
+}
+
+/* class selectors */
+.main-header {}
+
+/* ID selectors */
+#id {}
+
+/* the "all" selector */
+
+.box {
+    height: 80%;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: blue;
+}
+
+img {
+    height: 100px;
 }
