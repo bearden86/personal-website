@@ -35,7 +35,7 @@ nav ul {
   nav ul li { 
     display: inline-block; 
   } 
-   
+
   nav ul li a { 
     display: block; 
     padding: 10px 20px; /* create space between links */ 
@@ -59,13 +59,6 @@ p {
     display: flex;
     justify-content: center;
 }
-
-/* class selectors */
-.main-header {}
-
-/* ID selectors */
-#id {}
-
 
 img {
     height: 500px;
